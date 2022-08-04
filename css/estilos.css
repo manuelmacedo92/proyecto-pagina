@@ -1,0 +1,1027 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol{
+    list-style-type: none;
+}
+ul{
+    list-style-type: none;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10fr 10fr 2fr;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}   
+    .header_index{
+        border: 1px solid black;
+        display: block;
+        background-image: url(../img/portada.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;  
+    }
+    .main_index{
+    
+        display: flex;
+        flex-flow: column;
+        align-content: flex-start;
+    }
+    .footer_index{
+        display: block;
+        
+    }
+
+    
+.nav_index{
+    display: flex;
+    flex-flow: row;
+    justify-content:space-evenly;
+    background-color: rgb(15, 1, 109);
+ }
+.redes_index{
+    display: flex;
+    flex-flow: row;
+    justify-content:space-evenly;
+    
+
+}
+.titulo1{
+    color: rgb(249, 249, 251);
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-family:
+    system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
+    padding:1px; 
+    font-size:300%;
+    display:
+    inline;
+    position:
+    relative;
+    top:20%;
+    left:40%;
+}  
+
+.titulo2{
+color: rgb(249, 249, 251);
+text-shadow: 0.1em 0.1em 0.2em black;
+background-size: cover;
+font-size:150%;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: italic;
+position:relative;
+top:20%;
+left:32%;
+width: 14cm;
+}
+.nav{
+
+    color: rgb(249, 249, 251);
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    position:static;
+    overflow: hidden;
+    padding-right: 1px;
+    display:inline-block;
+    text-decoration: none;
+    position: relative;
+ 
+}
+.quienessomos{
+    font-style:italic;
+    font-weight: bold;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:200%;
+    position: relative;
+    left:40%;
+    top: 18%;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left:0px;
+    width:16cm;
+}
+.ul{
+    font-family: sans-serif;
+    margin: 5px;
+    width:50vh;
+    font-size:18px;
+    position: relative;
+    left: 1px;
+    top:95px;
+}
+.p1{
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline-block;
+    position: relative;
+    left:1px;
+    top:85px;
+    width:auto;
+
+}
+.footer-ins{
+   
+    padding: 0%;
+    margin: 0%;
+    display: block;
+    position:relative;
+    top:9vh;
+
+  
+  
+}
+.footer-face{
+    
+    padding: 0%;
+    margin: 0%;
+    display: block;
+    position:relative;
+    top:9vh;
+
+}
+.footer-mail{
+  
+    padding: 0%;
+    margin: 0%;
+    display: block;
+    position:relative;
+    top:9vh;
+}
+.copy{
+    position: relative;
+    padding: 0%;
+    margin: auto;
+    display:block;
+}
+.footer-p{
+    display:block;
+    position:relative;
+    top:24vh;
+    
+}
+.logofinal{
+    
+    margin: auto;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    position:relative;
+    left:50vh;
+    top:10vh;
+    width: 250px;
+    transition: 2s;
+}
+    .logofinal:hover{
+        height: 350px;
+
+
+}
+
+    @media screen and (max-width:768px) 
+    {
+        .titulo1 {
+            font-size: 250%;
+            position: relative;
+            top: 18px;
+            width: 10cm;
+
+        }
+        .titulo2{
+            font-size: 120%;
+            position: relative;
+            top: 10px;
+            width:10cm;
+            left: 5cm;
+        }
+        .logofinal{
+            top:20vh;
+        }
+        .footer-p{
+            top:38vh;
+        }
+        .footer-mail{
+            top:16vh;
+
+        }
+        .footer-face{
+            top:16vh;
+        
+        }
+        .footer-ins{
+        top:16vh;
+        }
+        .copy{
+            top :8vh;
+        }
+    }
+    /*--------------------contactanos-----------------------------------*/
+    .contenedor_contactanos{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:45vh 45vh 1fr ;
+        width: 100%;
+        height: 140vh;
+        margin: auto;
+        border: 1cm black;
+        background-color: rgb(218, 218, 219);
+       
+    }   
+        .header_contactanos{
+            
+            display: block;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;  
+        }
+        .main_contactanos{
+        
+            display:block;
+            display: flex;
+            flex-flow: column;
+            align-content: flex-start;
+            width: auto;
+        }
+        .footer_contactanos{
+            display: block;
+            
+        }
+    .nav_contactanos{
+            display: flex;
+            flex-flow: row;
+            justify-content:space-evenly;
+            background-color: rgb(15, 1, 109);
+            
+        }   
+        .h2_contactanos{
+            font-size:2.5em;
+            position: relative;
+            left:em;
+            top:10px;
+            color:rgb(25, 122, 85);
+            width: 10cm;
+        }
+        .logo_productos{
+    
+            height:14em;
+            position: relative;
+            top:1cm;
+            left: 2em;
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+        }
+        .h3_formulario{
+            font-size:2em;
+            position: relative;
+            
+            color:rgb(25, 122, 85);
+            width:6cm;
+            top:6px;
+        }
+    
+        .mapa_contactanos{
+            position:relative;
+            
+            width:13cm;
+            height:5cm;
+            left:10px;
+            bottom:2cm;
+            
+        }
+        .formulario{
+            font-size: 12px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            display: inline-block;
+            position: relative;
+            left:2px;
+            top:18px;
+            width:auto;
+        }
+            .footer-contactanos-ins{
+   
+                padding: 0%;
+                margin: 0%;
+                display: block;
+                position:relative;
+                bottom:32px;
+                left:100px;
+                left: 45vh;
+                width: 2cm;
+            
+              
+              
+            }
+            .footer-contactanos-face{
+                
+                padding: 0%;
+                margin: 0%;
+                display: block;
+                position:relative;
+                bottom:58px;
+                left:70vh;
+                width: 2cm;
+            
+            }
+            .footer-contactanos-mail{
+              
+                padding: 0%;
+                margin: 0%;
+                display: block;
+                position:relative;
+                bottom:80px;
+                left:100vh;
+                width: 2cm;
+
+            }
+        .copy-contactanos{
+            position: relative;
+            padding: 0%;
+            margin: auto;
+            display:block;
+            bottom:30px;
+        }
+        .footer-contactanos-p{
+            display:block;
+            position:relative;
+            top:1cm;
+            
+        }
+        .logofinal-contactanos{
+            position: absolute;
+            left:34em;
+            top:23cm;
+            margin: auto;
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+        }
+        .logo_face{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+        }
+        .logo_ins{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+        }
+        .logo_mail{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+        }
+        
+        
+            
+        @media screen and (max-width:768px) {
+            .mapa_contactanos{
+            position:relative;
+            
+            width:10cm;
+            height:3cm;
+            left:10px;
+            top:.1em;
+            }
+            .footer-contactanos-ins{
+   
+                padding: 0%;
+                margin: 0%;
+                display: block;
+                position:relative;
+                top:20px;
+                left:100px;
+                left: 6vh;
+                width: 2cm;
+            
+              
+              
+            }
+            .footer-contactanos-face{
+                
+                padding: 0%;
+                margin: 0%;
+                display: block;
+                position:relative;
+                bottom:4px;
+                left:30vh;
+                width: 2cm;
+            
+            }
+            .footer-contactanos-mail{
+              
+                padding: 0%;
+                margin: 0%;
+                display: block;
+                position:relative;
+                bottom:26px;
+                left:55vh;
+                width: 2cm;
+
+            }
+        .copy-contactanos{
+            position: relative;
+            padding: 0%;
+            margin: auto;
+            display:block;
+            top:3em;
+            height:1cm;
+            font-size:10px;
+        }
+        .footer-contactanos-p{
+            display:block;
+            position:relative;
+            top:7em;
+            font-size:12px;
+            
+        }
+        .logofinal-contactanos{
+            position: absolute;
+            left:18em;
+            top:680px;
+            margin:0cm;
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            width:6cm;
+            height:3cm;
+        }
+    }
+        /*----------------------------------------------------------------------------------------*/
+        .body_paginas{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: rgb(219, 219, 224);
+        }
+        .logo_face{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+        }
+        .logo_ins{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+        }
+        .logo_mail{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+        }
+        .nav_productos{
+            color: black;
+            text-shadow: 0.1em 0.1em 0.2em black;
+            padding-left: 8em;
+            padding-top: 0.5em;
+            margin-bottom: 10px;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            position:static;
+            overflow: hidden;
+            padding-right: 1px;
+            display:inline-block;
+            text-decoration: none;
+            position: relative;
+            left: 280px;
+            top:40px;
+        }
+        .logo_productos{
+            
+            height:14em;
+            position: relative;
+            bottom:3em;
+            left: 2em;
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+        }
+        .footer-ins{
+            position: absolute;
+            left: 50em;
+            top: 61em;
+            padding: 0%;
+            margin: 0%;
+            display: block;
+          
+          
+        }
+        .footer-productos-face{
+            position: absolute;
+            left: 45em;
+            top: 61em;
+            padding: 0%;
+            margin: 0%;
+            display: block;
+        }
+        .h2_productos{
+                font-size: 2.5em;
+                font-family: Arial, Helvetica, sans-serif;
+                position: relative;
+                top: 1em;
+                left: 10em;
+                margin-top: 0px;
+                margin-left: 0px;
+                padding-left:0px;
+                width:21cm;
+                color:rgb(25, 122, 85);}
+        .tabla_productos1{
+            font-size: 2em;
+            position: relative;
+            top: 3em;
+            left: 1.5em;
+            margin-top: 0px;
+            margin-left: 0px;
+            padding-left:0px;
+            width:21cm;}
+        .tabla_productos2{
+            font-size: 2em;
+            position: relative;
+            top: 6em;
+            left: 1.5em;
+            margin-top: 0px;
+            margin-left: 0px;
+            padding-left:0px;
+            width:21cm;
+        }    
+        .productos_tabla_paneles{
+            font-size: 1em;
+            position: inherit;
+            top: 1em;
+            left: 1em;
+            font-style: normal;
+            font-style: italic;
+        }
+        .productos_tabla_inversor{
+            font-size: 1em;
+            position: inherit;
+            top: 1em;
+            left: 1em;
+            font-style: normal;
+            font-style: italic;    
+        }
+        .contenido_tabla{
+            font-size: 1em;
+        }
+        .c2_tabla{
+            font-size:.6em;
+        }
+        .imagen_tabla{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+        }
+        
+        .footer-productos-mail{
+            position: absolute;
+            left: 40em;
+            top: 100em;
+            padding: 0%;
+            margin: 0%;
+            display: block;
+        }
+        .copy-productos{
+            position: absolute;
+            left:1em;
+            top:110em;
+            padding: 0%;
+            margin: auto;
+        }
+        .footer-productos-p{
+            position: absolute;
+            left:1em;
+            top:109em;
+        }
+        .logofinal-productos{
+            position: absolute;
+            left:34em;
+            top:105em;
+            margin: auto;
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+        }.footer-productos-face{
+            position: absolute;
+            left: 45em;
+            top: 100em;
+            padding: 0%;
+            margin: 0%;
+            display: block;
+        }
+        .footer-productos-ins{
+            position: absolute;
+            left:50em;
+            top:100em;
+            padding: 0%;
+            margin: 0%;
+            display: block;
+        }
+        .h2_galeria{
+            font-size:2.5em;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            top:1em;
+            left:13em;
+            margin-top: 0px;
+            margin-left: 0px;
+            padding-left:0px;
+            width:21cm;
+           
+            color:rgb(25, 122, 85);
+        }
+        .h3_titulo_galeria{
+            font-size:1.3em;
+            position: relative;
+            left: 1em;
+            top: 4em;
+            margin-top: 0px;
+            margin-left: 0px;
+            padding-left:0px;
+            width:10cm;
+            height:0cm;
+            color:rgb(25, 122, 85);
+            text-decoration: underline;
+        }
+        
+        .h3_galeria_offgrid{
+            font-size:1.3em;
+            position: relative;
+            left:26em;
+            top:6em;
+            width:10cm;
+            
+        }
+        .galeria_img_offgrid1{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            position: relative;
+            top:4cm;
+            left:1cm;
+            height:8cm;
+            
+        }
+        .galeria_img_offgrid2 {
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            position: relative;
+            top:4cm;
+            left:6cm;
+            height:8cm;
+        }
+        .galeria_img_offgrid3 {
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            position: relative;
+            top:4cm;
+            left:22.6em;
+            height:8cm;
+        
+        }
+        .h3_galeria_ongrid{
+            font-size:1.3em;
+            position: relative;
+            left:26em;
+            top:5cm;
+            width:10cm;
+            
+        }
+        .galeria_img_ongrid1{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            position: relative;
+            top:6cm;
+            left:1cm;
+            
+        }
+        .galeria_img_ongrid2 {
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            position: relative;
+            top:6cm;
+            left:3.3cm;
+        }
+        .galeria_img_ongrid3 {
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            position: relative;
+            top:6cm;
+            left:7cm;
+        
+        }
+        .h3_galeria_bomba{
+            font-size:1.3em;
+            position: relative;
+            left:26em;
+            top:7cm;
+            width:10cm;
+            
+        }
+        .galeria_img_bomba1{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            position: relative;
+            top:8cm;
+            left:1cm;
+            
+        }
+        .galeria_img_bomba2 {
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            position: relative;
+            top:8cm;
+            left:3.3cm;
+        }
+        .galeria_img_bomba3 {
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            position: relative;
+            top:8cm;
+            left:7cm;
+        
+        }
+        .h3_galeria_termo{
+            font-size:1.3em;
+            position: relative;
+            left:26em;
+            top:9cm;
+            width:10cm;
+            
+        }
+        .galeria_img_termo1{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            position: relative;
+            top:10cm;
+            left:1cm;
+            
+        }
+        .galeria_img_termo2{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            position: relative;
+            top:10cm;
+            left:3.3cm;
+        }
+        .galeria_img_termo3{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            position: relative;
+            top:10cm;
+            left:7cm;
+        
+        }
+        .h3_galeria_pileta{
+            font-size:1.3em;
+            position: relative;
+            left:26em;
+            top:11cm;
+            width:10cm;
+            
+        }
+        .galeria_img_pileta1{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            position: relative;
+            top:12cm;
+            left:1cm;
+            
+        }
+        .galeria_img_pileta2{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            position: relative;
+            top:12cm;
+            left:3.3cm;
+        }
+        .galeria_img_pileta3{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            position: relative;
+            top:12cm;
+            left:7cm;
+        
+        }
+        .footer-galeria-mail{
+            position: absolute;
+            left: 40em;
+            top: 160em;
+            padding: 0%;
+            margin: 0%;
+            display: block;
+        }
+        .copy-galeria{
+            position: absolute;
+            left:1em;
+            top:170em;
+            padding: 0%;
+            margin: auto;
+        }
+        .footer-galeria-p{
+            position: absolute;
+            left:1em;
+            top:169em;
+        }
+        .logofinal-galeria{
+            position: absolute;
+            left:34em;
+            top:165em;
+            margin: auto;
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+        }.footer-galeria-face{
+            position: absolute;
+            left: 45em;
+            top: 160em;
+            padding: 0%;
+            margin: 0%;
+            display: block;
+        }
+        .footer-galeria-ins{
+            position: absolute;
+            left:50em;
+            top:160em;
+            padding: 0%;
+            margin: 0%;
+            display: block;
+        }
+        .h2_sistemas{
+            font-size:2.5em;
+            position: relative;
+            left: 9em;
+            top: 0em;
+            color:rgb(25, 122, 85);
+            width: 24cm;
+            
+        }
+        .link_sistemas{
+            color: black;
+            list-style-type:decimal;
+            position: relative;
+            top: 3em;
+            right:0em;
+            left: 0.5em;
+            font-size: 1.3em;
+            width: 10cm;
+        }
+        .offgrid1{
+            position: relative;
+            top:4cm;
+            left: 0cm;
+            right: 0cm;
+            width: 25cm;
+        
+        }
+        .offgrid2{ 
+            position: relative;
+            top:4.5cm;
+            left: 0cm;
+            right: 0cm;}
+        .offgrid3{
+            position: relative;
+            top:5cm;
+            left: 0cm;
+            right: 0cm;
+        }
+        .imagen_offgrid{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            position: relative;
+            top:4cm;
+        }
+        .ongrid1{
+            position: relative;
+            top:4cm;
+            left: 0cm;
+            right: 0cm;
+        }
+        .ongrid2{
+            position: relative;
+            top:4.5cm;
+            left: 0cm;
+            right: 0cm;
+        }
+        .ongrid3{
+            position: relative;
+            top:5cm;
+            left: 0cm;
+            right: 0cm;
+        }
+        .imagen_ongrid{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            position: relative;
+            top:4cm;
+        }
+        .bomba1{
+            position: relative;
+            top:4cm;
+            left: 0cm;
+            right: 0cm;
+        }
+        .bomba2{
+            position: relative;
+            top:4.5cm;
+            left: 0cm;
+            right: 0cm;
+        }
+        .bomba3{
+            position: relative;
+            top:5cm;
+            left: 0cm;
+            right: 0cm;
+        }
+        .imagen_bomba{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            position: relative;
+            top:5cm;
+            left: 1cm;
+        }
+        .termo1{ 
+            position: relative;
+            top:6cm;
+            left: 0cm;
+            right: 0cm;}
+        .termo2{
+            position: relative;
+            top:6.5cm;
+            left: 0cm;
+            right: 0cm;
+        }
+        .termo3{
+            position: relative;
+            top:7cm;
+            left: 0cm;
+            right: 0cm;
+        }
+        .imagen_termo{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            position: relative;
+            top:8cm;
+            left: 1cm;
+        }
+        .pileta1{
+            position: relative;
+            top:9cm;
+            left: 0cm;
+            right: 0cm;
+        }
+        .pileta2{ 
+            position: relative;
+            top:9.2cm;
+            left: 0cm;
+            right: 0cm;
+        }
+        
+        .pileta3{
+            position: relative;
+            top:10cm;
+            left: 0cm;
+            right: 0cm;
+        }
+        .imagen_pileta{
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+            position: relative;
+            top:12cm;
+            left: 1cm;
+        }
+        .footer-sistemas-mail{
+            position: absolute;
+            left: 40em;
+            top: 234em;
+            padding: 0%;
+            margin: 0%;
+            display: block;
+        }
+        .copy-sistemas{
+            position: absolute;
+            left:1em;
+            top:245em;
+            padding: 0%;
+            margin: auto;
+        }
+        .footer-sistemas-p{
+            position: absolute;
+            left:1em;
+            top:244em;
+        }
+        .logofinal-sistemas{
+            position: absolute;
+            left:34em;
+            top:240em;
+            margin: auto;
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+        }.footer-sistemas-face{
+            position: absolute;
+            left: 45em;
+            top: 234em;
+            padding: 0%;
+            margin: 0%;
+            display: block;
+        }
+        .footer-sistemas-ins{
+            position: absolute;
+            left:50em;
+            top:234em;
+            padding: 0%;
+            margin: 0%;
+            display: block;
+        }
+        .copy{
+            
+          
+            animation: bounce; /* referring directly to the animation's @keyframe declaration */
+            animation-duration: 10s; /* don't forget to set a duration! */
+          }

@@ -164,6 +164,9 @@ width: 14cm;
     top:24vh;
     
 }
+@keyframe .footer-mail{
+    
+}
 .logofinal{
     
     margin: auto;
@@ -174,6 +177,7 @@ width: 14cm;
     top:10vh;
     width: 250px;
     transition: 2s;
+     transform:rotate(350deg);
 }
     .logofinal:hover{
         height: 350px;

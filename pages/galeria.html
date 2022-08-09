@@ -12,51 +12,72 @@
 <body class="body_paginas">
 <header class=>
          
-        <nav>
-            <a class="nav_productos" href="../index.html">INICIO</a>
-            <a class="nav_productos" href="./productos.html">PRODUCTOS</a>
-            <a class="nav_productos" href="#">GALERIA</a>
-            <a class="nav_productos" href="./sistemas.html">SISTEMAS</a>
-            <a class="nav_productos" href="./contactanos.html">CONTACTANOS</a>
-        </nav>
-        <img class="logo_productos" src="../img/logo nuevo.jpg" alt="">
-        
+    <nav class="navbar navbar-expand-lg navbar-light NAV">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">INICIO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">GALERIA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/productos.html">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/sistemas.html">SISTEMAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contactanos.html">CONTACTANOS</a>
+              </li>
+              
+              </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
 </header>
-<main>
+<main  class="container-fluid" >
 <h2 class="h2_galeria">GALERIA DE IMAGENES</h2>   
 <h3 class="h3_titulo_galeria">FOTOS DE TRABAJOS REALIZADOS:</h3>
-    <article>
-        <h3 class="h3_galeria_offgrid">  SISTEMAS FOTOVOLTAICOS OFF GRID</h3>
-        <img class="galeria_img_offgrid1" src="../img/PANEL1 (1).jpeg" alt="" width="300" height="300">
-        <img class="galeria_img_offgrid2"  src="../img/PANEL1 (2).jpeg" alt="" width="400" height="300">
-        <img class="galeria_img_offgrid3"  src="../img/PANEL1 (3).jpeg" alt="" width="400" height="300">
-    </article>
-    <article>
-        <h3 class="h3_galeria_ongrid"> SISTEMAS FOTOVOLTAICOS ON GRID</h3>
-        <img class="galeria_img_ongrid1" src="../img/ONGRID (1).jpeg" alt="" width="400" height="300">
-        <img class="galeria_img_ongrid2" src="../img/ONGRID (2).jpeg" alt="" width="400" height="300">
-        <img class="galeria_img_ongrid3" src="../img/ONGRID (3).jpeg" alt="" width="400" height="300">
-    </article>
-    <article>
-        <h3 class="h3_galeria_bomba"> SISTEMA DE BOMBEO SOLAR</h3>
-        <img class="galeria_img_bomba1" src="../img/BOMBA1.jpeg" alt="" width="400" height="300">
-        <img class="galeria_img_bomba2" src="../img/BOMBA2.jpeg" alt="" width="400" height="300">
-        <img class="galeria_img_bomba3" src="../img/BOMBA3.jpeg" alt="" width="400" height="300">
-    </article>
-    <article>
-        <h3 class="h3_galeria_termo"> TERMOTANQUE SOLAR</h3>
-        <img class="galeria_img_termo1" src="../img/TERMO (1).jpeg" alt="" width="400" height="300">
-        <img class="galeria_img_termo2" src="../img/TERMO (2).jpeg" alt="" width="400" height="300">
-        <img class="galeria_img_termo3" src="../img/TERMO (3).jpeg" alt="" width="400" height="300">
-    </article>
-    <article>
-        <h3 class="h3_galeria_pileta">CLIMATIZACION DE PISCINAS</h3>
-        <img class="galeria_img_pileta1" src="../img/PILETA (1).jpeg" alt="" width="400" height="300">
-        <img class="galeria_img_pileta2" src="../img/PILETA (2).jpeg" alt="" width="400" height="300">
-        <img class="galeria_img_pileta3" src="../img/PILETA (3).jpeg" alt="" width="400" height="300">
-        <link rel="stylesheet" href="../css/estilo.css">
-    </article>
+    <div class="row">
+        <article class="col-md-2">
+            <h3 class="h3_galeria_offgrid">  SISTEMAS FOTOVOLTAICOS OFF GRID</h3>
+            <img class="galeria_img_offgrid1" src="../img/PANEL1 (1).jpeg" alt="" width="300" height="300">
+            <img class="galeria_img_offgrid2"  src="../img/PANEL1 (2).jpeg" alt="" width="400" height="300">
+            <img class="galeria_img_offgrid3"  src="../img/PANEL1 (3).jpeg" alt="" width="400" height="300">
+        </article>
+        <article>
+            <h3 class="h3_galeria_ongrid"> SISTEMAS FOTOVOLTAICOS ON GRID</h3>
+            <img class="galeria_img_ongrid1" src="../img/ONGRID (1).jpeg" alt="" width="400" height="300">
+            <img class="galeria_img_ongrid2" src="../img/ONGRID (2).jpeg" alt="" width="400" height="300">
+            <img class="galeria_img_ongrid3" src="../img/ONGRID (3).jpeg" alt="" width="400" height="300">
+        </article>
+        <article>
+            <h3 class="h3_galeria_bomba"> SISTEMA DE BOMBEO SOLAR</h3>
+            <img class="galeria_img_bomba1" src="../img/BOMBA1.jpeg" alt="" width="400" height="300">
+            <img class="galeria_img_bomba2" src="../img/BOMBA2.jpeg" alt="" width="400" height="300">
+            <img class="galeria_img_bomba3" src="../img/BOMBA3.jpeg" alt="" width="400" height="300">
+        </article>
+        <article>
+            <h3 class="h3_galeria_termo"> TERMOTANQUE SOLAR</h3>
+            <img class="galeria_img_termo1" src="../img/TERMO (1).jpeg" alt="" width="400" height="300">
+            <img class="galeria_img_termo2" src="../img/TERMO (2).jpeg" alt="" width="400" height="300">
+            <img class="galeria_img_termo3" src="../img/TERMO (3).jpeg" alt="" width="400" height="300">
+        </article>
+        <article>
+            <h3 class="h3_galeria_pileta">CLIMATIZACION DE PISCINAS</h3>
+            <img class="galeria_img_pileta1" src="../img/PILETA (1).jpeg" alt="" width="400" height="300">
+            <img class="galeria_img_pileta2" src="../img/PILETA (2).jpeg" alt="" width="400" height="300">
+            <img class="galeria_img_pileta3" src="../img/PILETA (3).jpeg" alt="" width="400" height="300">
+            <link rel="stylesheet" href="../css/estilo.css">
+        </article>
+    </div>
+    
 </main>
 <footer>    
         <div> <p class="footer-galeria-p" target="_blank">SOLARTAN ENERGIAS RENOVABLES</p>

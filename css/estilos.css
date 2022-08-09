@@ -9,6 +9,10 @@ ol{
 ul{
     list-style-type: none;
 }
+.NAV{
+    background-color:rgb(15, 1, 109);
+    
+}
 .contenedor{
     display: grid;
     grid-template-columns: 1fr;
